@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hitta till Nordic Escape Hotel och se vår adress på kartan.">
+    <title>Boka - Nordic Escape Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Nordic Escape Hotel</h1>
+
+        <nav>
+            <a href="index.html">Hem</a>
+            <a href="boka.html">Boka</a>
+            <a href="hitta.html">Hitta</a>
+            <a href="kontakta.html">Kontakt</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="booking">
+
+            <h2>Boka din vistelse</h2>
+
+            <p>
+                Fyll i formuläret nedan för att boka ditt rum hos Nordic Escape Hotel.
+            </p>
+
+            <form>
+
+                <label for="namn">Namn</label>
+                <input type="text" id="namn" required>
+
+                <label for="email">E-post</label>
+                <input type="email" id="email" required>
+
+                <label for="telefon">Telefonnummer</label>
+                <input type="tel" id="telefon">
+
+                <label for="checkin">Incheckning</label>
+                <input type="date" id="checkin">
+
+                <label for="checkout">Utcheckning</label>
+                <input type="date" id="checkout">
+
+                <label for="rum">Rumstyp</label>
+
+                <select id="rum">
+
+                    <option>Standardrum</option>
+                    <option>Deluxe</option>
+                    <option>Familjerum</option>
+                    <option>Sviten</option>
+
+                </select>
+
+                <label for="gaster">Antal gäster</label>
+
+                <input type="number" id="gaster" min="1" max="6" value="1">
+
+                <button type="submit">Boka nu</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>Telefon: +46 13-123456</p>
+        <p>E-post: info@nordicescape.se</p>
+        <p>Adress: Vasaplan 7, 111 20 Stockholm</p>
+
+    </footer>
+
+</body>
+
+</html>

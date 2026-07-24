@@ -1,0 +1,450 @@
+/* ===== Allmänt ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:white;
+    color:#333;
+    line-height:1.6;
+}
+
+/* ===== Header ===== */
+
+header{
+
+    background:#003366;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+}
+
+nav{
+
+    margin-top:15px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin:0 15px;
+
+    font-weight:bold;
+
+}
+
+nav a:hover{
+
+    color:#d4af37;
+
+}
+
+/* ===== Hero ===== */
+
+.hero{
+
+    width:100%;
+
+}
+
+.hero img{
+
+    width:100%;
+
+    height:600px;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+/* ===== Main ===== */
+
+main{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:60px auto;
+
+}
+
+/* ===== Om hotellet ===== */
+
+.about{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.about h2{
+
+    margin-bottom:20px;
+
+    font-size:2.3rem;
+
+}
+
+.about p{
+
+    margin-bottom:30px;
+
+}
+
+/* ===== Knapp ===== */
+
+.button{
+
+    display:inline-block;
+
+    background:#d4af37;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 35px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+}
+
+.button:hover{
+
+    background:#b88a1c;
+
+}
+
+/* ===== Tjänster ===== */
+
+.services{
+
+    display:flex;
+
+    gap:30px;
+
+}
+
+.services article{
+
+    flex:1;
+
+    background:white;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+
+}
+
+.services img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.services h3{
+
+    margin:20px 0 10px;
+
+}
+
+.services p{
+
+    padding:0 20px 30px;
+
+}
+
+/* ===== Footer ===== */
+
+footer{
+
+    background:#003366;
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+
+    margin-top:60px;
+
+}
+
+/* ===== Mobil ===== */
+
+@media(max-width:768px){
+
+    nav{
+
+        display:flex;
+
+        flex-direction:column;
+
+        gap:10px;
+
+    }
+
+    .hero img{
+
+        height:350px;
+
+    }
+
+    .services{
+
+        flex-direction:column;
+
+    }
+
+}
+
+/* ===== Bokningssida ===== */
+
+.booking{
+
+    max-width:700px;
+
+    margin:60px auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+
+}
+
+.booking h2{
+
+    text-align:center;
+
+    margin-bottom:15px;
+
+}
+
+.booking p{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+.booking form{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.booking label{
+
+    margin-top:15px;
+
+    margin-bottom:5px;
+
+    font-weight:bold;
+
+}
+
+.booking input,
+.booking select{
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:5px;
+
+    font-size:16px;
+
+}
+
+.booking button{
+
+    margin-top:30px;
+
+    padding:15px;
+
+    border:none;
+
+    background:#d4af37;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+}
+
+.booking button:hover{
+
+    background:#b88a1c;
+
+}
+
+/* ===== Hitta ===== */
+
+.find {
+    max-width: 1000px;
+    margin: 60px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.find h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.find p {
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.find iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* ===== Kontakt ===== */
+
+.contact{
+
+    max-width:700px;
+
+    margin:60px auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+
+}
+
+.contact h2{
+
+    text-align:center;
+
+    margin-bottom:15px;
+
+}
+
+.contact p{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+.contact-info{
+
+    margin-bottom:30px;
+
+}
+
+.contact form{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.contact label{
+
+    margin-top:15px;
+
+    margin-bottom:5px;
+
+    font-weight:bold;
+
+}
+
+.contact input,
+.contact textarea{
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:5px;
+
+    font-size:16px;
+
+    font-family:Arial, sans-serif;
+
+}
+
+.contact button{
+
+    margin-top:25px;
+
+    padding:15px;
+
+    background:#d4af37;
+
+    color:white;
+
+    border:none;
+
+    border-radius:30px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+}
+
+.contact button:hover{
+
+    background:#b88a1c;
+
+}
